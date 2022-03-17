@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "uri",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"LaotelNFT.sol": "IERC1155Metadata_URI"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"LaotelNFT.sol": {
+			"keccak256": "0xabba2c9fb42c6e56be9b534b93ebd1e47d3364b3d950703fae488427714744e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a028524e30fec8f51e2fc53e6cfdd6c91f792b770efecfa0324d2a0b5570f28",
+				"dweb:/ipfs/QmYBmrj5S9QeEumyQSXfBa39naJTL43pPqCkD49UFgGvJz"
+			]
+		}
+	},
+	"version": 1
+}
